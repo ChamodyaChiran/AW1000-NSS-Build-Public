@@ -14,7 +14,9 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 * 📶 Band locking and cell locking for LTE/5G modems
 
-* 💡 Custom LED configuration to control Wi-Fi and system indicators
+* 📡 Carrier Aggregation (CA) optimization for faster and more stable mobile data connections
+
+* 💡 Custom LED configuration, including night-time LED behavior for a quieter environment after dark
 
 * 🎨 Custom Theme for a modern and responsive web interface
 
@@ -56,6 +58,24 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 > Before doing anything, make sure to back up all important data and settings.
 > This process will erase everything on the device, including custom configurations, installed packages, and any files stored internally.
 
+**Login Details**
+```
+Webgui: https://192.168.8.1
+User: root
+Password: <empty>
+```
+**Tiny FIle Manager Details**
+```
+Username: admin
+Password: admin@123
+Username: user
+Password: 12345
+```
+**Wifi Details**
+```
+SSID: ChamodyaWrt_2G or ChamodyaWrt_5G
+Password: 1234567890
+```
 
 ### Flashing ChamodyaWRT via Web Interface
 1. Download the Firmware
