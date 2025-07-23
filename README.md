@@ -30,6 +30,10 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 * 🔄 Watchcat for auto-reboot and network monitoring
 
+* 🌐 Guest Wi-Fi support to isolate visitor traffic from your main network
+
+* 📱 Dedicated IoT network support for smart devices like CCTV, smart switches, and sensors, allowing enhanced control, isolation, and security
+
 * 🔌Preinstalled USB support packages for external drives and hotplug auto-mounting
 
 * 👨‍👩‍👧‍👦 Parental controls and timed network access to manage internet usage
@@ -73,7 +77,7 @@ Password: 12345
 ```
 **Wifi Details**
 ```
-SSID: ChamodyaWrt_2G or ChamodyaWrt_5G
+SSID: ChamodyaWrt_2G / ChamodyaWrt_5G / ChamodyaWrt_IOT / GUEST WIFI
 Password: 1234567890
 ```
 
