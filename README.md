@@ -114,6 +114,15 @@ Password: 1234567890
 
 <br/>
 
+# 📢 Stay Updated
+
+* For the latest news, updates, tips, and community support related to ChamodyaWRT, join our official WhatsApp Channel:
+
+* 👉 Join ChamodyaWRT WhatsApp Channel https://whatsapp.com/channel/0029VbBFGBM0bIdqp0xKPI2U
+<img width="190" height="191" alt="image" src="https://github.com/user-attachments/assets/e09131f8-6cbf-4d6b-a300-1cfbc85d3ee3" />
+
+<br/>
+
 # 🙏 Acknowledgements
 
 Sincere thanks to all developers, contributors, and community members who made ChamodyaWRT possible. This project is proudly built on the shoulders of giants.
