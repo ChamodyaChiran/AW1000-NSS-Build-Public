@@ -114,6 +114,16 @@ Password: 1234567890
 
 <br/>
 
+# 🛠️ Recovery Instructions
+
+*  If something goes wrong during the flashing process—such as a power cut, interrupted upload, firmware mismatch or unexpected reboot—and your router becomes unresponsive, don’t panic. You can try the following recovery methods:
+
+1. Failsafe Mode: Most OpenWrt-supported devices, including the AW1000, have a failsafe mode. Power on the router while holding the reset button . This mode lets you access the router via SSH or TFTP to re-upload a valid firmware image without booting the full system.[more info](https://openwrt.org/docs/guide-user/troubleshooting/failsafe_and_factory_reset#failsafe_mode)
+2. Serial Console Access: connect to the router’s serial or [UART](https://openwrt.org/toh/arcadyan/astoria/aw1000#serial) console for low-level recovery and debugging. [more info](https://openwrt.org/docs/techref/hardware/port.serial)
+3. USB Boot Option: To help prevent bricking or permanent failures in the future, consider configuring USB boot. Booting from a USB drive allows safer recovery and testing of firmware without overwriting internal storage.[more info](https://openwrt.org/toh/arcadyan/astoria/aw1000#making_usb_boot_permanent)
+
+<br/>
+
 # 📢 Stay Updated
 
 * For the latest news, updates, tips, and community support related to ChamodyaWRT, join our official WhatsApp Channel:
