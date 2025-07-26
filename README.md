@@ -1,6 +1,9 @@
 # ChamodyaWrt For Telstra AW1000
 
 ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000 router, focused on enhancing performance, flexibility, and community access. This project is developed in my free time and provided as-is, without any guarantees regarding functionality, stability, or performance. While it is completely free to use, users are encouraged to take full responsibility when installing and using the firmware.
+<br><br>
+**Every firmware image is personally tested on my own AW1000 router before being published, to ensure basic functionality and minimize risk during flashing.**
+<br><br>
 ![Screenshot of a aw1000 router from openwrt page.](https://openwrt.org/_media/media/arcadyan/aw1000/arcadyan_aw1000.png)
 
 
@@ -81,7 +84,7 @@ SSID: ChamodyaWrt_2G / ChamodyaWrt_5G / ChamodyaWrt_IOT / GUEST WIFI
 Password: 1234567890
 ```
 
-### Flashing ChamodyaWRT via Web Interface
+## Flashing ChamodyaWRT via Web Interface
 1. Download the Firmware
 - Go to the [ChamodyaWRT GitHub Releases](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases)
 - Download the latest sysupgrade firmware (*.squashfs-sysupgrade.bin) for your device.
@@ -114,7 +117,7 @@ Password: 1234567890
 
 <br/>
 
-# 🛠️ Recovery Instructions
+## 🛠️ Recovery Instructions
 
 *  If something goes wrong during the flashing process—such as a power cut, interrupted upload, firmware mismatch or unexpected reboot—and your router becomes unresponsive, don’t panic. You can try the following recovery methods:
 
@@ -124,16 +127,21 @@ Password: 1234567890
 
 <br/>
 
-# 📢 Stay Updated
+## 📢 Stay Updated
+
+- ChamodyaWRT will continue to be actively maintained and updated for as long as I use the AW1000 router. Community feedback and suggestions are highly encouraged!
+
+- Let’s work together to make ChamodyaWRT even better for everyone!
 
 * For the latest news, updates, tips, and community support related to ChamodyaWRT, join our official WhatsApp Channel:
 
 * 👉 Join ChamodyaWRT WhatsApp Channel https://whatsapp.com/channel/0029VbBFGBM0bIdqp0xKPI2U
+  
 <img width="190" height="191" alt="image" src="https://github.com/user-attachments/assets/e09131f8-6cbf-4d6b-a300-1cfbc85d3ee3" />
 
 <br/>
 
-# 🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 Sincere thanks to all developers, contributors, and community members who made ChamodyaWRT possible. This project is proudly built on the shoulders of giants.
 
