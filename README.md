@@ -3,7 +3,14 @@
 ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000 router, focused on enhancing performance, flexibility, and community access. This project is developed in my free time and provided as-is, without any guarantees regarding functionality, stability, or performance. While it is completely free to use, users are encouraged to take full responsibility when installing and using the firmware.
 <br><br>
 **Every firmware image is personally tested on my own AW1000 router before being published, to ensure basic functionality and minimize risk during flashing.**
-<br><br>
+<br>
+
+> [!NOTE]
+> This firmware is built using the NSS (Network SubSystem) fork of OpenWrt.
+> 
+> NSS (Network Subsystem) is a specialized hardware offloading engine developed by Qualcomm, integrated into their IPQ series SoCs (System-on-Chip), such as the IPQ807x and IPQ6018. NSS is designed to handle high-throughput network tasks like NAT, routing, and even security > tasks such as IPsec, without burdening the main CPU cores.
+<be>
+
 ![Screenshot of a aw1000 router from openwrt page.](https://openwrt.org/_media/media/arcadyan/aw1000/arcadyan_aw1000.png)
 
 
@@ -44,9 +51,16 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 <br/>
 
   <img width="1754" height="900" alt="image" src="https://github.com/user-attachments/assets/4dd15f08-b34e-4396-b88d-14e0a416987a" />
-  <img width="1808" height="873" alt="image" src="https://github.com/user-attachments/assets/d2738702-bbbc-4efe-8c1d-c565ed8b9e1d" />
+  <img width="1881" height="930" alt="image" src="https://github.com/user-attachments/assets/8c975015-9e2d-4bc0-b5b1-470fbd1a9a1e" />
+  <img width="1887" height="936" alt="image" src="https://github.com/user-attachments/assets/178aac53-80ce-435b-b8ac-0e0356b2a87f" />
+  <img width="1878" height="912" alt="image" src="https://github.com/user-attachments/assets/b19a7d6d-20d7-4264-8422-0f88c3043f19" />
+  <img width="1886" height="893" alt="image" src="https://github.com/user-attachments/assets/c69a43c8-49e4-4dd3-94b6-5088f703ec5c" />
+  <img width="1881" height="906" alt="image" src="https://github.com/user-attachments/assets/1e87114c-a511-47d5-b961-9e80b3ed8460" />
+  <img width="1881" height="917" alt="image" src="https://github.com/user-attachments/assets/8c735803-7ac3-413c-9e4a-fe1bd0328b18" />
+  <img width="1879" height="929" alt="image" src="https://github.com/user-attachments/assets/ee662b10-4ab2-4b89-be0b-a4c23383fe23" />
 
-
+> [!NOTE]
+> Some builds may use OpenWrt snapshot with the APK package manager, while most others are based on stable releases and use the standard OPKG package manager. This depends on the base image used for each release.
 
 - And many more packages, scripts, and tweaks to enhance performance, security, and usability—especially for users with LTE/5G connectivity needs.
 
@@ -54,14 +68,7 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 <br/>
 
-> [!NOTE]
-> This firmware is built using the NSS (Network SubSystem) fork of OpenWrt.
-> 
-> NSS (Network Subsystem) is a specialized hardware offloading engine developed by Qualcomm, integrated into their IPQ series SoCs (System-on-Chip), such as the IPQ807x and IPQ6018. NSS is designed to handle high-throughput network tasks like NAT, routing, and even security > tasks such as IPsec, without burdening the main CPU cores.
-
-<br/>
-
-> [!WARNING]
+> [!CAUTION]
 > Before doing anything, make sure to back up all important data and settings.
 > This process will erase everything on the device, including custom configurations, installed packages, and any files stored internally.
 
