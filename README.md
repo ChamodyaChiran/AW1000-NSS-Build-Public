@@ -93,7 +93,7 @@ Password: 1234567890
 
 ## Flashing ChamodyaWRT via Web Interface
 1. Download the Firmware
-- Go to the [ChamodyaWRT GitHub Releases](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases)
+- Go to the [ChamodyaWRT GitHub Releases](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases/latest)
 - Download the latest sysupgrade firmware (*.squashfs-sysupgrade.bin) for your device.
 - ⚠️ Make sure you select the correct firmware file for your device model.
 
