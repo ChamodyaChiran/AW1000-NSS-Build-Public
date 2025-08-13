@@ -16,7 +16,7 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 ## 🎁 What's Included in ChamodyaWRT?
 
-> ChamodyaWRT comes packed with a wide range of powerful and user-friendly features designed to unlock the full potential of your router. It includes essential tools and customizations that go beyond the stock OpenWrt experience.
+> Standard ChamodyaWRT comes packed with a wide range of powerful and user-friendly features designed to unlock the full potential of your router. It includes essential tools and customizations that go beyond the stock OpenWrt experience.
 
 > Some of the most valuable features included are:
 
@@ -34,7 +34,7 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 * 🔐 PassWall for advanced proxy, VPN, and firewall control
 
-* ChamodyaWRT V5.2 Comes with HomeProxy for advanced proxy management
+* 🏠 HomeProxy for advanced proxy management
 
 * 🚫 Adblock with filter list support to block ads and trackers
 
@@ -49,6 +49,19 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 * 🔌Preinstalled USB support packages for external drives and hotplug auto-mounting
 
 * 👨‍👩‍👧‍👦 Parental controls and timed network access to manage internet usage
+
+### Expanded ChamodyaWRT comes with all the features of the Standard version, plus additional features
+* 🐳 Docker support for containerized applications
+
+* ⚡ Clash integration for advanced proxy and routing
+
+* 🎨 Custom themes for a modern and responsive web interface (more themes now available)
+
+* 🌐 Captive Portal for guest Wi-Fi authentication and access control
+
+* 🔗 Tailscale VPN for secure, easy-to-manage remote connections
+
+* 💾 More available storage
 
 <br/>
 
