@@ -57,6 +57,8 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 * 🎨 Custom themes for a modern and responsive web interface (more themes now available)
 
+* 🔐 PassWall 2 for enhanced proxy, VPN, and firewall control with the latest features
+
 * 🌐 Captive Portal for guest Wi-Fi authentication and access control
 
 * 🔗 Tailscale VPN for secure, easy-to-manage remote connections
