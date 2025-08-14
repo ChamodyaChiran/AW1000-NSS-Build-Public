@@ -19,7 +19,7 @@
 
 * [TFTPD64](https://pjo2.github.io/tftpd64/)
 
-USB to TTL drivers (download the correct driver for your adapter model from Google)
+* USB to TTL drivers (download the correct driver for your adapter model from Google)
 
 ### Files Needed
 
@@ -40,3 +40,18 @@ Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then p
 * Pin layout (from square hole to farthest): **VCC (⚠️ Do not connect this!**), TX, RX, GND.
 
 * **Correct connection order for use: GND – RX – TX – VCC (leave VCC unconnected)**
+
+### Connect wires:
+* USB-TTL GND → Router (GND)
+* USB-TTL RX → Router (TX)
+* USB-TTL TX → Router (RX)
+
+
+### UART Connection Details
+
+* Baud Rate: 115200
+* Data Bits: 8
+* Parity: None
+* Stop Bits: 1
+* Flow Control: None
+* Voltage Level: 3.3V TTL
