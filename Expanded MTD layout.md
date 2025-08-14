@@ -154,7 +154,7 @@ reset
 
 * You have now successfully modified the MTD partitions.
 
-* The router will boot into stock OpenWrt.If the WebUI asks for login details, the username is root and the password is password.
+* The router will boot into factory bin.If the WebUI asks for login details, the username is root and the password is password.
 
 * From here, you can flash any custom firmware via the [WebUI Sysupgrade option](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public#flashing-chamodyawrt-via-web-interface)
 
