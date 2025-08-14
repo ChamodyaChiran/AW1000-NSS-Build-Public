@@ -26,7 +26,7 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 * 📡 Carrier Aggregation (CA) optimization for faster and more stable mobile data connections
 
-* 💡 Custom LED configuration
+* 💡 Custom LED configuration and Task Plan
 
 * 🎨 Custom Theme for a modern and responsive web interface
 
@@ -36,9 +36,9 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 * 🏠 HomeProxy for advanced proxy management
 
-* 🚫 Adblock with filter list support to block ads and trackers
+* 🚫 Adblock with filter list support to block ads and trackers(adblock/adguard home)
 
-* ☁️ Cloudflare Tunnel (Zero Trust) for secure remote access
+* ☁️ Cloudflare Tunnel (Zero Trust) for secure remote access and tailscale
 
 * 🔄 Watchcat for auto-reboot and network monitoring
 
@@ -68,8 +68,8 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 * 💾 More available storage
 
 <br/>
-
-  <img width="1754" height="900" alt="image" src="https://github.com/user-attachments/assets/4dd15f08-b34e-4396-b88d-14e0a416987a" />
+  <img width="1813" height="907" alt="image" src="https://github.com/user-attachments/assets/a77a4018-d6ef-4c02-8f19-2f425d33316f" />
+  <img width="1833" height="901" alt="image" src="https://github.com/user-attachments/assets/8ce1baaa-c9b9-4bf0-97d9-a058d7819f1a" />
   <img width="1881" height="930" alt="image" src="https://github.com/user-attachments/assets/8c975015-9e2d-4bc0-b5b1-470fbd1a9a1e" />
   <img width="1887" height="936" alt="image" src="https://github.com/user-attachments/assets/178aac53-80ce-435b-b8ac-0e0356b2a87f" />
   <img width="1504" height="644" alt="image" src="https://github.com/user-attachments/assets/7b5205d2-6abf-4a70-ae23-38c3e646046f" />
