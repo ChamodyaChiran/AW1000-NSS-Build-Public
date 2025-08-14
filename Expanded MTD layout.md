@@ -104,3 +104,43 @@ Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then p
 * In the Current Directory field, select the folder where aw1000-mibib.bin and factory.bin are located.
 
 * In the Server Interface drop-down menu, select the network adapter you configured earlier (with IP 192.168.1.2).
+
+9. Disable Antivirus if Necessary
+
+* Sometimes third-party antivirus or security software can block Tftpd64 connections.
+
+* If Tftpd64 is not working or the transfer fails, temporarily disable your antivirus and try again.
+
+10. Run UART Commands
+In the PuTTY terminal (after interrupting the boot process), type the following commands one by one, pressing Enter after each:
+```
+tftpboot aw1000-mibib.bin
+flash 0:MIBIB
+tftpboot factory.bin
+flash rootfs
+```
+11. Optional – Enable USB Boot
+
+* Setting USB boot will make it easier to recover your router in the future if something goes wrong, such as a failed firmware flash.
+
+* If you want to enable USB boot, enter the following commands in the PuTTY terminal (after completing the previous steps):
+```
+setenv bootusb 'usb start && usbboot 0x44000000 0 && bootm 0x44000000'
+setenv bootcmd 'run bootusb; bootipq'
+saveenv
+```
+* If you do not want USB boot, skip this step and proceed to Step 12.
+
+12. Reboot the Router
+
+Once all steps are complete, reboot by typing:
+```
+reset
+```
+13. Final Step
+
+* You have now successfully modified the MTD partitions.
+
+* The router will boot into stock OpenWrt.
+
+* From here, you can flash any custom firmware via the [WebUI Sysupgrade option](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public#flashing-chamodyawrt-via-web-interface)
