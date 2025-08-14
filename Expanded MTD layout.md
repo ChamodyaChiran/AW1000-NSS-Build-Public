@@ -32,6 +32,8 @@ Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then p
 1. Remove the four rubber feet and the four screws underneath.
 
 2. Unclip the bottom cover and slide the hardware out of the white shell.
+3. ![arcadyan_aw1000_bottom](https://github.com/user-attachments/assets/df481572-858d-47e6-b9f2-ffa34ea47750)
+
 
 ### Serial Port Location
 
@@ -40,6 +42,8 @@ Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then p
 * Pin layout (from square hole to farthest): **VCC (⚠️ Do not connect this!**), TX, RX, GND.
 
 * **Correct connection order for use: GND – RX – TX – VCC (leave VCC unconnected)**
+* <img width="200" height="243" alt="arcadyan astoria aw1000 serial" src="https://github.com/user-attachments/assets/c914d081-4cc2-4406-bad5-6852bb0ca7bf" />
+
 
 ### Connect wires:
 * USB-TTL GND → Router (GND)
@@ -67,6 +71,8 @@ Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then p
 * Subnet Mask: 255.255.255.0
 
 * Default Gateway: leave blank
+* ![photo_2025-02-11_20-52-31](https://github.com/user-attachments/assets/8daeafd4-e857-49bf-8cca-162fb3440d5f)
+
 * Save the settings.
 
 3. Connect the hardware:
@@ -84,6 +90,8 @@ Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then p
 * Enter the COM port number shown in Device Manager (replace ## with your COM number).
 
 * Set Speed to 115200.
+* ![photo_2025-02-11_20-50-59](https://github.com/user-attachments/assets/dc36cc86-60ea-48a1-b3ac-63a40a4b8e40)
+
 
 * Click Open-a black terminal screen will appear.
 
@@ -119,6 +127,11 @@ flash 0:MIBIB
 tftpboot factory.bin
 flash rootfs
 ```
+![photo_2025-02-11_21-05-55](https://github.com/user-attachments/assets/a61740af-59e8-463a-8b53-d31cbf07ece9)
+![photo_2025-02-11_21-08-19](https://github.com/user-attachments/assets/a63b8bb9-2689-4181-9218-73337bd7d14e)
+![photo_2025-02-11_21-09-49](https://github.com/user-attachments/assets/9204d0e0-8b9b-48e9-8984-85fa0ee059b7)
+![photo_2025-02-11_21-10-18](https://github.com/user-attachments/assets/fe8a3979-5337-4366-b030-1699cbf29c81)
+
 11. Optional – Enable USB Boot
 
 * Setting USB boot will make it easier to recover your router in the future if something goes wrong, such as a failed firmware flash.
@@ -141,7 +154,7 @@ reset
 
 * You have now successfully modified the MTD partitions.
 
-* The router will boot into stock OpenWrt.
+* The router will boot into stock OpenWrt.If the WebUI asks for login details, the username is root and the password is password.
 
 * From here, you can flash any custom firmware via the [WebUI Sysupgrade option](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public#flashing-chamodyawrt-via-web-interface)
 
