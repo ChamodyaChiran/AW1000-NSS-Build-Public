@@ -144,3 +144,6 @@ reset
 * The router will boot into stock OpenWrt.
 
 * From here, you can flash any custom firmware via the [WebUI Sysupgrade option](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public#flashing-chamodyawrt-via-web-interface)
+
+## Credits ❤️
+This method was originally developed and shared by [sopeksemprit](https://www.sopeksemprit.xyz). All credit for the procedure and the associated files belongs to him, and his contribution is gratefully acknowledged.
