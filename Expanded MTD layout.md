@@ -55,3 +55,52 @@ Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then p
 * Stop Bits: 1
 * Flow Control: None
 * Voltage Level: 3.3V TTL
+
+### Flashing Guide
+
+1. Install USB-to-TTL adapter drivers on your computer.
+
+2. Configure your computer’s network adapter (IPv4 properties):
+
+* IP Address: 192.168.1.2
+
+* Subnet Mask: 255.255.255.0
+
+* Default Gateway: leave blank
+* Save the settings.
+
+3. Connect the hardware:
+
+* Connect the router’s RJ45 LAN port to your computer’s RJ45 port using a LAN cable.
+
+4. Connect the USB-to-TTL adapter to your computer.
+
+* Check Device Manager-the adapter should appear as COM##.
+
+5. Open PuTTY:
+
+* Select Serial connection.
+
+* Enter the COM port number shown in Device Manager (replace ## with your COM number).
+
+* Set Speed to 115200.
+
+* Click Open-a black terminal screen will appear.
+
+6. Power on the router:
+
+* Plug in the router’s 12V adapter and turn it on.
+
+* The PuTTY terminal will start showing boot information.
+
+7. Interrupt the boot process:
+
+* When prompted, press any key on your keyboard to stop the boot process.
+
+8. Open Tftpd64:
+
+* Launch Tftpd64 on your computer.
+
+* In the Current Directory field, select the folder where aw1000-mibib.bin and factory.bin are located.
+
+* In the Server Interface drop-down menu, select the network adapter you configured earlier (with IP 192.168.1.2).
