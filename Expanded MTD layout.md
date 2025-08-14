@@ -25,7 +25,7 @@
 
 Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then place them in a separate folder:
 
-(Download Link)[https://drive.google.com/drive/mobile/folders/1KU4tjSSwtkjEjHMRMTrw8tu_OEClCh60?usp=sharing=drive_link&sort=13&direction=a]
+[Download Link](https://drive.google.com/drive/mobile/folders/1KU4tjSSwtkjEjHMRMTrw8tu_OEClCh60?usp=sharing=drive_link&sort=13&direction=a)
 
 ### Disassembly
 
