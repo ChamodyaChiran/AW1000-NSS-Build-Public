@@ -99,7 +99,7 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 > [!IMPORTANT]
 > The AW1000 router originally comes with a Standard MTD layout, which limits the accessible storage for the system and installed packages.
-However, it is possible to expand the rootfs using this [method](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/blob/main/Expanded%20MTD%20layout).
+However, it is possible to expand the rootfs using this [method](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/blob/main/Expanded%20MTD%20layout.md).
 > Because of this, ChamodyaWRT for AW1000 is released in two versions:
 > 
 > 1. Standard versions – For routers with the original factory flash partition table. (Standard MTD layout)
