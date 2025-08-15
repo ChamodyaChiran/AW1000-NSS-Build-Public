@@ -1,5 +1,13 @@
 # AW1000 Expanded MTD Layout Flash Guide
 
+### Why do I need to do this?
+* With the standard MTD layout, you are limited to only 100 MB of router storage. The AW1000 actually has 1 GB of NAND storage, but you’re not even using 50% of it. By switching to the expanded MTD layout, you can use up to 700 MB of storage.
+
+### What happened to the other 300 MB of the 1 GB NAND?
+The remaining 300 MB is used for essential router functions such as the bootloader and other system partitions.
+
+> By doing this, you can expand the available flash storage, allowing you to install firmware with more features, more functions, and additional capabilities on this router.
+
 > [!WARNING]
 > Please follow this tutorial carefully. Incorrect modifications can damage your router, sometimes permanently. Always use a backup power supply to prevent sudden power outages during this process.
 
