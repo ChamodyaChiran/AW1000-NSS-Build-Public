@@ -33,7 +33,7 @@ The remaining 300 MB is used for essential router functions such as the bootload
 
 Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then place them in a separate folder:
 
-[Download Link](https://drive.google.com/drive/mobile/folders/1KU4tjSSwtkjEjHMRMTrw8tu_OEClCh60?usp=sharing=drive_link&sort=13&direction=a)
+[Download Link](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/tree/main/Files)
 
 ### Disassembly
 
