@@ -6,7 +6,7 @@
 ### What happened to the other 300 MB of the 1 GB NAND?
 The remaining 300 MB is used for essential router functions such as the bootloader and other system partitions.
 
-> By doing this, you can expand the available flash storage, allowing you to install firmware with more features, more functions, and additional capabilities on this router.
+> By doing this, you can expand the available flash storage, allowing you to install firmware with more features, more functions, and additional capabilities on this router.MTD24 and MTD25 are merged together to create a new rootfs partition.The previous rootfs partition will be renamed to rootfs_bak.
 
 > [!WARNING]
 > Please follow this tutorial carefully. Incorrect modifications can damage your router, sometimes permanently. Always use a backup power supply to prevent sudden power outages during this process.
