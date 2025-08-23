@@ -130,6 +130,11 @@ mtd24: 2bd00000 00040000 "rootfs"
 ```
 **or something similar → you have Expanded layout → download Expanded ChamodyaWRT. This hexadecimal number means you have approximately 701 MB**
 
+## Download the All-in-One Installer
+```
+opkg update && opkg install wget && wget -O /tmp/ChamodyaWrt_Installer.sh https://raw.githubusercontent.com/ChamodyaChiran/AW1000-NSS-Build-Public/main/ChamodyaWrt_Installer.sh && chmod +x /tmp/ChamodyaWrt_Installer.sh && /tmp/ChamodyaWrt_Installer.sh
+```
+
 ## Flashing ChamodyaWRT via Web Interface
 1. Download the Firmware
 - Go to the [ChamodyaWRT GitHub Releases](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases/latest)
