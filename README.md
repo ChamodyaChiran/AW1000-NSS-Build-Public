@@ -112,8 +112,16 @@ However, it is possible to expand the rootfs using this method [Change Standard 
 > * **On Expanded MTD layout**, flashing the Standard version will still boot and work perfectly. in fact, you’ll have more available free storage because the Standard ChamodyaWRT release contains fewer preinstalled packages than the Expanded version but features will be limited.
 > * If your router has the Standard MTD layout, always use the Standard ChamodyaWRT version
 > * If your router has the Expanded MTD layout, always use the Expanded ChamodyaWRT version.
+>
+# Download and Run the All-in-One Installer
 
-## How to check before flashing:
+- With All-in-One Installer,You don’t need to manually check your router’s MTD layout. This installer will automatically detect your router model and select the correct firmware.
+- Run the following command in your router terminal (SSH/PuTTY):
+```
+opkg update && opkg install wget && wget -O /tmp/ChamodyaWrt_Installer.sh https://raw.githubusercontent.com/ChamodyaChiran/AW1000-NSS-Build-Public/main/ChamodyaWrt_Installer.sh && chmod +x /tmp/ChamodyaWrt_Installer.sh && /tmp/ChamodyaWrt_Installer.sh
+```
+
+## How to check manually before flashing:
 Run:
 ```
 cat /proc/mtd | grep '"rootfs"$'
@@ -129,11 +137,6 @@ mtd18: 06400000 00040000 "rootfs"
 mtd24: 2bd00000 00040000 "rootfs"
 ```
 **or something similar → you have Expanded layout → download Expanded ChamodyaWRT. This hexadecimal number means you have approximately 701 MB**
-
-## Download the All-in-One Installer
-```
-opkg update && opkg install wget && wget -O /tmp/ChamodyaWrt_Installer.sh https://raw.githubusercontent.com/ChamodyaChiran/AW1000-NSS-Build-Public/main/ChamodyaWrt_Installer.sh && chmod +x /tmp/ChamodyaWrt_Installer.sh && /tmp/ChamodyaWrt_Installer.sh
-```
 
 ## Flashing ChamodyaWRT via Web Interface
 1. Download the Firmware
