@@ -1,6 +1,6 @@
 
 #!/bin/sh
-
+clear
 echo "============================================"
 echo
 echo "     ChamodyaWrt Auto Firmware Installer"
