@@ -67,6 +67,8 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 
 * 💾 More available storage
 
+* please check releases for more updates
+
 <br/>
   <img width="1813" height="907" alt="image" src="https://github.com/user-attachments/assets/a77a4018-d6ef-4c02-8f19-2f425d33316f" />
   <img width="1833" height="901" alt="image" src="https://github.com/user-attachments/assets/8ce1baaa-c9b9-4bf0-97d9-a058d7819f1a" />
