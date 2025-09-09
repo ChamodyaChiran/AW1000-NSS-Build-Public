@@ -105,22 +105,25 @@ animate() {
 }
 
 animate "Checking Your router MTD layout.Please wait"
-
 # Get rootfs size (hex string)
 ROOTFS_SIZE_HEX=$(awk '/"rootfs"/ {print $2}' /proc/mtd)
 
-# Convert hex to decimal using printf
+# Convert hex to decimal
 ROOTFS_SIZE=$(printf "%d" "0x$ROOTFS_SIZE_HEX")
 
-# Threshold: ~80MB (0x05000000)
-if [ "$ROOTFS_SIZE" -ge 83886080 ]; then
+# Show actual MB
+ROOTFS_MB=$((ROOTFS_SIZE / 1024 / 1024))
+
+# Determine layout
+if [ "$ROOTFS_SIZE" -gt 262144000 ]; then   # >250 MB
     MTD_LAYOUT="Expanded"
-else
+elif [ "$ROOTFS_SIZE" -ge 80000000 ] && [ "$ROOTFS_SIZE" -lt 200000000 ]; then  # ~100 MB
     MTD_LAYOUT="Standard"
+else
+    MTD_LAYOUT="Unknown"
 fi
 
-
-echo "[INFO] Your router MTD layout: $MTD_LAYOUT"
+echo "[INFO] Your router MTD layout: $MTD_LAYOUT ($ROOTFS_MB MB rootfs)"
 sleep 1
 
 echo
