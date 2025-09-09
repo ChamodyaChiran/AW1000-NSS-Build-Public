@@ -138,17 +138,25 @@ done
 echo " ... Done!"
 
 
-# Get available space on root filesystem in bytes
-ROOT_AVAIL=$(df / | awk 'NR==2 {print $4 * 1024}') # df gives 1K blocks
+# Get available space on overlay filesystem in bytes
+ROOT_AVAIL=$(df /overlay | awk 'NR==2 {print $4 * 1024}')  # free space
+ROOT_TOTAL=$(df /overlay | awk 'NR==2 {print $2 * 1024}')  # total space
+
+# Convert to MB
+ROOT_AVAIL_MB=$((ROOT_AVAIL / 1024 / 1024))
+ROOT_TOTAL_MB=$((ROOT_TOTAL / 1024 / 1024))
 
 # Determine MTD space type
-if [ "$ROOT_AVAIL" -ge 262144000 ]; then  # ~250 MB threshold
+if [ "$ROOT_TOTAL" -gt 200000000 ]; then    # >200 MB total = Expanded
     MTD_SPACE="Expanded MTD space"
-else
+elif [ "$ROOT_TOTAL" -lt 70000000 ]; then   # <70 MB total = Standard
     MTD_SPACE="Standard MTD space"
+else
+    MTD_SPACE="Unknown"
 fi
 
-echo "[INFO] Your router MTD space: $MTD_SPACE"
+echo "[INFO] Your router MTD space: $MTD_SPACE ($ROOT_TOTAL_MB MB total, $ROOT_AVAIL_MB MB free)"
+
 
 
 
