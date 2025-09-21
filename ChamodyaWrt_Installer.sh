@@ -175,6 +175,9 @@ fi
 
 if [ "$ROUTER_TYPE" = "Standard" ]; then
     echo "Your router has the Standard MTD layout, always use the Standard ChamodyaWRT version"
+    echo "ChamodyaWRT Standard V5.5 will be the final Standard release, except for critical major updates"
+    echo "To install future releases (Expanded builds), you must upgrade your router to the Expanded MTD layout"
+    echo "Full upgrade instructions are available in the GitHub repository"
 elif [ "$ROUTER_TYPE" = "Expanded" ]; then
     echo "Your router has the Expanded MTD layout, it is recommended to use the Expanded ChamodyaWRT version"
 else
