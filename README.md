@@ -228,7 +228,9 @@ Special appreciation goes to:
 
 * The creators and maintainers of [HikariWRT](https://github.com/xhikarishii/openwrt-ipq/releases), whose work served as an inspiration for this project.
 
-* The countless open-source developers, custom package builders, and community maintainers who continue to create, test, and share valuable tools like PassWall, Adblock, 3ginfo, Watchcat, qmodem and many others.
+* [Sopeksemprit](https://www.sopeksemprit.xyz/), for the expanded layout work that opened new possibilities for device storage usage.
+
+* The countless open-source developers, custom package builders, and community maintainers who continue to create, test, and share valuable tools like PassWall, Adblock, 3ginfo, Watchcat, qmodem, homeproxy, clash, neko and many others.
 
 ChamodyaWRT exists thanks to your generosity, skill, and dedication.
 Thank you for helping build a better, faster, and freer internet. ❤️
