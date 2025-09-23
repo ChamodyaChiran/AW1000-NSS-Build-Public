@@ -70,21 +70,12 @@ ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000
 * please check releases for more updates
 
 <br/>
-  <img width="1813" height="907" alt="image" src="https://github.com/user-attachments/assets/a77a4018-d6ef-4c02-8f19-2f425d33316f" />
-  <img width="1833" height="901" alt="image" src="https://github.com/user-attachments/assets/8ce1baaa-c9b9-4bf0-97d9-a058d7819f1a" />
-  <img width="1226" height="682" alt="image" src="https://github.com/user-attachments/assets/afb44c21-969e-404d-baaa-91887c1b44f8" />
-  <img width="1881" height="930" alt="image" src="https://github.com/user-attachments/assets/8c975015-9e2d-4bc0-b5b1-470fbd1a9a1e" />
-  <img width="1887" height="936" alt="image" src="https://github.com/user-attachments/assets/178aac53-80ce-435b-b8ac-0e0356b2a87f" />
-  <img width="1504" height="644" alt="image" src="https://github.com/user-attachments/assets/7b5205d2-6abf-4a70-ae23-38c3e646046f" />
-  <img width="1652" height="725" alt="image" src="https://github.com/user-attachments/assets/001b56b4-fdaf-43e6-b6a4-90ff915f2e0a" />
-  <img width="1705" height="873" alt="image" src="https://github.com/user-attachments/assets/eea62c5f-5776-4340-b447-ff5cdfc13b9e" />
-  <img width="1694" height="789" alt="image" src="https://github.com/user-attachments/assets/52b75fa8-d811-41b1-a000-cb5eb1e193b6" />
-  <img width="1878" height="912" alt="image" src="https://github.com/user-attachments/assets/b19a7d6d-20d7-4264-8422-0f88c3043f19" />
-  <img width="1886" height="893" alt="image" src="https://github.com/user-attachments/assets/c69a43c8-49e4-4dd3-94b6-5088f703ec5c" />
-  <img width="1881" height="906" alt="image" src="https://github.com/user-attachments/assets/1e87114c-a511-47d5-b961-9e80b3ed8460" />
-  <img width="1881" height="917" alt="image" src="https://github.com/user-attachments/assets/8c735803-7ac3-413c-9e4a-fe1bd0328b18" />
-  <img width="1458" height="405" alt="477607690-4482a14d-0d2d-4b98-9cf8-eadea54581fd" src="https://github.com/user-attachments/assets/4bf021a6-fe35-47ac-a84c-664fbbb0cbb7" />
-  <img width="1879" height="929" alt="image" src="https://github.com/user-attachments/assets/ee662b10-4ab2-4b89-be0b-a4c23383fe23" />
+<img width="1868" height="915" alt="image" src="https://github.com/user-attachments/assets/8d552ed9-e948-4cb6-9749-26e0dc514b3c" />
+<img width="1867" height="907" alt="image" src="https://github.com/user-attachments/assets/c32c2989-aeb4-415d-9009-00e2d7b27bea" />
+<img width="1865" height="920" alt="image" src="https://github.com/user-attachments/assets/897403b8-f236-4180-8d9b-5d1e63b74133" />
+
+![Screen Recording 2025-09-24 013221](https://github.com/user-attachments/assets/dd9aa60d-f77a-4612-bd80-5f7ee08e19c5)
+
 
 > [!NOTE]
 > Some builds may use OpenWrt snapshot with the APK package manager, while most others are based on stable releases and use the standard OPKG package manager. This depends on the base image used for each release.
