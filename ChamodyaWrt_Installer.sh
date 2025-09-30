@@ -64,7 +64,7 @@ sleep 1
 animate "Downloading Necessary Packages"
 
 
-REQUIRED_PACKAGES="wget jsonfilter curl"
+REQUIRED_PACKAGES="wget wget-ssl jsonfilter curl"
 
 MISSING_PACKAGES=""
 for pkg in $REQUIRED_PACKAGES; do
