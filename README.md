@@ -191,6 +191,8 @@ Password: 1234567890
 2. Serial Console Access: connect to the router’s serial or [UART](https://openwrt.org/toh/arcadyan/astoria/aw1000#serial) console for low-level recovery and debugging. [more info](https://openwrt.org/docs/techref/hardware/port.serial)
 3. USB Boot Option: To help prevent bricking or permanent failures in the future, consider configuring USB boot. Booting from a USB drive allows safer recovery and testing of firmware without overwriting internal storage.[more info](https://openwrt.org/toh/arcadyan/astoria/aw1000#making_usb_boot_permanent)
 
+### USB boot guide
+
 > Download the official OpenWrt kernel image and rename it to initramfs.bin.
 
 > Prepare a USB drive (1GB or larger) and use Win32 Disk Imager to write initramfs.bin to it. (Note: the USB drive will be fully formatted.)
