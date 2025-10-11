@@ -133,7 +133,7 @@ mtd24: 2bd00000 00040000 "rootfs"
 
 ## Flashing ChamodyaWRT via Web Interface
 1. Download the Firmware
-- Go to the [ChamodyaWRT GitHub Releases](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases/latest)
+- Go to the [ChamodyaWRT GitHub Releases](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases)
 - Download the latest sysupgrade firmware (*.squashfs-sysupgrade.bin) for your device.
 - ⚠️ Make sure you select the correct firmware file for your device model.
 
