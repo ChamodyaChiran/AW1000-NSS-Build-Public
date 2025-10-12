@@ -39,8 +39,12 @@ Download **aw1000-mibib.bin**, **factory.bin** files from the link below, then p
 
 1. Remove the four rubber feet and the four screws underneath.
 
+![arcadyan_aw1000_bottom](https://github.com/user-attachments/assets/df481572-858d-47e6-b9f2-ffa34ea47750)
+
 2. Unclip the bottom cover and slide the hardware out of the white shell.
-3. ![arcadyan_aw1000_bottom](https://github.com/user-attachments/assets/df481572-858d-47e6-b9f2-ffa34ea47750)
+
+![arcadyan_aw1000_inside](https://forum.openwrt.org/uploads/default/original/3X/1/c/1cab30642427e158267cb9a428b554ee56af183f.jpeg)
+
 
 
 ### Serial Port Location
