@@ -1,9 +1,8 @@
-
 #!/bin/sh
 clear
 echo "============================================"
 echo
-echo "     ChamodyaWrt Auto Firmware Installer"
+echo "     ChamodyaWrt Firmware Installer"
 echo
 echo "============================================"
 echo "This firmware build is provided free of charge"
@@ -25,7 +24,6 @@ else
     exit 1
 fi
 
-
 if [ -f /etc/openwrt_release ]; then
     FW_DESC=$(grep DISTRIB_DESCRIPTION /etc/openwrt_release | cut -d"'" -f2)
     echo "Current Firmware: $FW_DESC"
@@ -35,10 +33,6 @@ else
 fi
 sleep 1
 echo
-
-
-
-
 
 # Spinner animation function
 animate() {
