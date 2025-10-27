@@ -183,6 +183,26 @@ Password: 1234567890
 
 <br/>
 
+## Modem Firmware Upgrade Guide (RG500Q-EA)
+> [!NOTE]
+> If your modem firmware version ends with ACY (RG500QEAAAR11A07M4G_ACY), it’s a China customized version and may not work properly. In that case, you need to upgrade your modem firmware to the latest version.
+
+> [!WARNING]
+> Performing this process carries some risk, and you might not be able to downgrade the modem firmware afterward.
+
+1.Download the latest modem firmware. [R13 01.200](https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/blob/main/RG500QEAAAR13A01M4G_01.200.01.200.zip)
+
+2.Extract it and upload the firmware to the router.
+
+3.Upgrade the module using QFirehose:
+```
+QFirehose /path/to/firmware/
+```
+4.Check new firmware version using AT commands.
+```
+ATI
+```
+
 ## 🛠️ Recovery Instructions
 
 *  If something goes wrong during the flashing process such as a power cut, interrupted upload, firmware mismatch or unexpected reboot and your router becomes unresponsive, don’t panic. You can try the following recovery methods:
