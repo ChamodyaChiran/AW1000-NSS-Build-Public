@@ -1,4 +1,5 @@
 # ChamodyaWrt For Telstra AW1000
+![blue minimalist abstract C monogram logo design](https://github.com/user-attachments/assets/787002b1-4fb1-44cf-8ad2-41e03df93437)
 
 ChamodyaWRT is a free and open-source firmware developed for the Arcadyan AW1000 router, focused on enhancing performance, flexibility, and community access. This project is developed in my free time and provided as-is, without any guarantees regarding functionality, stability, or performance. While it is completely free to use, users are encouraged to take full responsibility when installing and using the firmware.
 <br><br>
