@@ -202,6 +202,8 @@ QFirehose /path/to/firmware/
 ```
 ATI
 ```
+Here are some other files available for the [RG500Q-EA0](https://github.com/ChamodyaChiran/RG500Q-EA)
+
 
 ## 🛠️ Recovery Instructions
 
