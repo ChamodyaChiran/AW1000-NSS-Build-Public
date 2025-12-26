@@ -178,7 +178,7 @@ Password: 12345
 ```
 **Wifi Details**
 ```
-SSID: ChamodyaWrt_2G / ChamodyaWrt_5G / ChamodyaWrt_IOT / GUEST WIFI
+SSID: ChamodyaWrt_2G / ChamodyaWrt_5G / ChamodyaWrt_IOT / GUEST WIFI  (Starting with version v5.8, the default Wi-Fi SSIDs will be ChamodyaWRT WIFI)
 Password: 1234567890
 ```
 
