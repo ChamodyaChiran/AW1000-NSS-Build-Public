@@ -183,6 +183,7 @@ echo
 #!/bin/sh
 
 FIRMWARE_LIST="
+ChamodyaWrt|Expanded|V5.8|https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases/download/Expanded.V5.7/chamodyawrt-expanded-v5.8-202512-qualcommax-ipq807x-arcadyan_aw1000-squashfs-sysupgrade.bin
 ChamodyaWrt|Expanded|V5.7|https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases/download/Expanded.V5.7/chamodyawrt-expanded-v5.7-24.10.3-qualcommax-ipq807x-arcadyan_aw1000-squashfs-sysupgrade.bin
 ChamodyaWrt|Expanded|V5.6|https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases/download/Expanded.V5.6/chamodyawrt-expanded-v5.6-202509-qualcommax-ipq807x-arcadyan_aw1000-squashfs-sysupgrade.bin
 ChamodyaWrt|Standard|V5.5|https://github.com/ChamodyaChiran/AW1000-NSS-Build-Public/releases/download/Standard.V5.5/chamodyawrt-standard-v5.5-202510-qualcommax-ipq807x-arcadyan_aw1000-squashfs-sysupgrade.bin
